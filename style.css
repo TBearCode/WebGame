@@ -1,0 +1,70 @@
+canvas{
+	visibility:hidden;
+	width: 96vw;
+	height: 96vh;
+	background-color:black;
+}
+body{
+	background-color:black;
+}
+h2{
+	position:absolute;
+	top:40%;
+	left:40%;
+	font-size:4rem;
+	color:black;
+	z-index:-100;
+}
+h6{
+	position: absolute;
+	font-size:2rem;
+	color:black;
+	top:50%;
+	left:45%;
+	z-index:-100;
+}
+.front{
+	z-index:1
+}
+button{
+	color:black;
+	position:absolute;
+	top:65%;
+	left:50%;
+	background-color:lime;
+}
+p{
+	color:lime;
+	text-align:center;
+	font-size:1.4rem;
+}
+h2#htp{
+	color:lime;
+	width:fit-content;
+	position:relative;
+}
+nav{
+	position:fixed;
+	top:0;
+	left:89%;
+}
+nav a{
+	width: fit-content;
+	text-decoration:none;
+	color:beige;
+	font-size:1.6rem;
+}
+#start{
+	position:absolute;
+	font-size:3rem;
+	top:40%;
+	left:45%;
+	color:beige;
+	z-index:1;
+}
+#start:hover, nav a:hover{
+	color:lime;
+	transition-property:color;
+	transition-duration:.6s;
+	transition-timing-function:ease-in-out;
+}
